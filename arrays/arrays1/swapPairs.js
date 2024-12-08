@@ -11,7 +11,7 @@
 // Interpretation: Swap the first value of an array with the second value, then the third with the fourth, and so on, skipping the final if the array is odd.
 
 function swap(givenArray) {
-    console.log(givenArray)
+    console.log(givenArray);
     for(var i = 1; i < givenArray.length; i = i+2) {
         var value1 = givenArray[i];
         var value2 = givenArray[i-1];
